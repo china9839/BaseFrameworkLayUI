@@ -1,0 +1,49 @@
+﻿
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdminPage.cshtml";
+    ViewBag.Title = "首页";
+}
+<style type="text/css">
+    .site-content {
+        width: 100%;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 14px;
+        padding: 10px;
+    }
+    .site-text {
+        position: relative;
+    }
+
+    .site-tips {
+        margin-bottom: 10px;
+        padding: 15px;
+        line-height: 22px;
+        border-left: 5px solid #0078AD;
+        background-color: #f2f2f2;
+    }
+    * {
+        box-sizing: border-box;
+    }
+
+    .site-title {
+        margin: 20px 0 20px;
+    }
+</style>
+<div class="site-content">
+    <blockquote class="site-tips site-text">
+        欢迎进入jadmin后台管理系统，jadmin是基于jsyso + LayUI搭建的Java后台管理系统，目前已自带权限控制模块，多选项卡操作。
+    </blockquote>
+    <fieldset class="layui-elem-field layui-field-title site-title">
+        <legend>jsyso</legend>
+    </fieldset>
+    <blockquote class="layui-elem-quote jadmin-quote-label"><i class="layui-icon"></i>jsyso：基于Spring JDBC的最简开发框架。<a href="http://git.oschina.net/xujian_jason/jsyso" target="_blank">http://git.oschina.net/xujian_jason/jsyso</a></blockquote>
+    <fieldset class="layui-elem-field layui-field-title site-title">
+        <legend>jadmin</legend>
+    </fieldset>
+    <blockquote class="layui-elem-quote jadmin-quote-label"><i class="layui-icon"></i>jadmin是基于jsyso + LayUI搭建的后台管理系统，目前已自带权限控制模块，多选项卡操作。<a href="http://git.oschina.net/xujian_jason/jadmin" target="_blank">http://git.oschina.net/xujian_jason/jadmin</a></blockquote>
+    <fieldset class="layui-elem-field layui-field-title site-title">
+        <legend>jsyso-weixin</legend>
+    </fieldset>
+    <blockquote class="layui-elem-quote jadmin-quote-label"><i class="layui-icon"></i>jsyso-weixin是基于jsyso的极速微信开发框架，以处理器方式开发微信，无任何继承关系，对代码无侵入。<a href="http://git.oschina.net/xujian_jason/jsyso-weixin" target="_blank">http://git.oschina.net/xujian_jason/jsyso-weixin</a></blockquote>
+</div>

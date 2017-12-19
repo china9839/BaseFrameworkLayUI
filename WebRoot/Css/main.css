@@ -1,0 +1,27 @@
+﻿.lps-header .layui-main {
+    margin: 0;
+}
+.title {
+    font-size: 24px;
+    color: #c4c4c4;
+    position: absolute;
+    left: 200px;
+    line-height: 60px;
+}
+h1, h2, h3 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.site-content {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    padding: 0px;
+}
+
+.addbt {
+    border-color:#FA8072;
+    color:#FA8072;
+}
