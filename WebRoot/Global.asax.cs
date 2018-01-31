@@ -10,7 +10,6 @@ using BaseFramework.Common;
 using BaseFramework.DataAccess;
 using System.IO;
 using System.Xml.Linq;
-using iPathFramework.iUtil;
 
 namespace WebRoot
 {
@@ -23,7 +22,7 @@ namespace WebRoot
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             LogHelper.Init();
-            QyApiHandler.Init(ConfigManger.CorpID, ConfigManger.Secret, ConfigManger.agentid);
+            //QyApiHandler.Init(ConfigManger.CorpID, ConfigManger.Secret, ConfigManger.agentid);
             this.InitPermission();   
         }
 

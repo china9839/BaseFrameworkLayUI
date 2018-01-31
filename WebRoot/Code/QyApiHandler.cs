@@ -1,4 +1,4 @@
-﻿using iPathFramework.iUtil;
+﻿using BaseFramework.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -869,7 +869,7 @@ namespace WebRoot.Code
             };
             Array.Sort(arr);
             string p1 = string.Join("&", arr);
-            return SHA1Helper.SHA1_Hash(p1);
+            return Encrypt.SHA1_Hash(p1);
         }
         #endregion
 
