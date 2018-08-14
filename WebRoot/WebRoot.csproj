@@ -885,9 +885,6 @@
     <Content Include="Scripts\mobiscroll\中文精简实例.html" />
     <Content Include="Scripts\mobiscroll\增加中文支持.html" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\plugs\iPath1\iPath.css" />
-    <Content Include="Scripts\plugs\iPath1\iPath.js" />
-    <Content Include="Scripts\plugs\iPath1\loading.gif" />
     <Content Include="Scripts\plugs\layer_mobile\layer.js" />
     <Content Include="Scripts\plugs\layer_mobile\need\layer.css" />
     <Content Include="Scripts\plugs\pintuer\pintuer.css" />
